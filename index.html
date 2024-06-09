@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styl.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section1">
+        <div class="left">
+            <header class="header1">
+                <div class="logo"><img src="./img/food-blogger-site-logo.svg" alt=""></div>
+                <ul>
+                    <li><a href="./index.html" class="a">HOME</a></li>
+                    <li><a href="./pages/about.html">ABOUT</a></li>
+                    <li><a href="./pages/reviews.html">REVIEWS</a></li>
+                    <li><a href="./pages/videos.html">VIDEOS</a></li>
+                    <li><a href="./pages/contact.html">CONTACT</a></li>
+                </ul>
+            </header>
+            <div class="left-content">
+                <span><div><hr></div> <small>Welcome</small></span>
+                <h1>I’m Jonathan Phillip</h1>
+                <h4>Food Critic / Influencer / Blogger</h4>
+                <p>Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra, ac porttitor orci.
+                </p>
+                <button>JION INSIDER</button>
+            </div>
+
+            <div class="icion">
+                <div class="inon-content">
+                    <i class="fa-brands fa-youtube"></i>
+                    <h1>1.2M+</h1>
+                    <P>SUBSCRIBERS</P>
+                </div>
+                <div class="inon-content">
+                    <i class="fa-brands fa-instagram"></i>
+                    <h1>1.8M+</h1>
+                    <P>FOLLOWERS</P>
+                </div>
+                <div class="inon-content">
+                    <i class="fas fa-wifi" id="wifi"></i>
+                    <h1>800K+</h1>
+                    <P>READERS</P>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="small"><img src="./img/food-blogger-site-logo.svg" alt=""></div>
+            <div class="background">
+                <header class="header2">
+                    <i class="fa-brands fa-youtube" id="none"></i>
+                    <i class="fa-brands fa-instagram" id="none"></i>
+                    <i class="fa-brands fa-facebook" id="none"></i>
+                    <button id="none">Let's Talk</button>
+                    <div class="circle" onclick="openNav()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </header>
+                <img src="./img/food-blogger-hero-img.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="nav" id="nav">
+        <div class="box" onclick="closeNav()">
+            <i class="fa-solid fa-x"></i>
+        </div>
+        <ul>
+            <li><a href="./index.html" class="a">HOME</a></li>
+            <li><a href="./pages/about.html">ABOUT</a></li>
+            <li><a href="./pages/reviews.html">REVIEWS</a></li>
+            <li><a href="./pages/videos.html">VIDEOS</a></li>
+            <li><a href="./pages/contact.html">CONTACT</a></li>
+        </ul>
+    </section>
+    <section class="featuring">
+        <span>AS FEATURED IN</span>
+        <div class="feutured-logo">
+            <img src="./img/food-blogger-featured-in-logo-1.svg" alt="">
+            <img src="./img/food-blogger-featured-in-logo-2.svg" alt="">
+            <img src="./img/food-blogger-featured-in-logo-3.svg" alt="">
+            <img src="./img/food-blogger-featured-in-logo-4.svg" alt="">
+            <img src="./img/food-blogger-featured-in-logo-5.svg" alt="">
+        </div>
+    </section>
+
+
+    <section class="Reviews">
+        <div class="head">
+            <h1>Latest Reviews</h1>
+            <button>VIEW ALL</button>
+        </div>
+        <div class="reviews-content">
+            <div class="container">
+                <img src="./img/food-blogger-latest-review-img-1.jpg" alt="">
+                <h3>Grilled Flank Steak with Chimichurri</h3>
+                <p>Potenti tincidunt arcu euismod curabitur iaculis ut aliquet facilisis pharetra, pharetra dolor scelerisque.</p>
+                <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-latest-review-img-2.jpg" alt="">
+                <h3>Mushroom Penne with Walnut Pesto</h3>
+                <p>Ipsum amet ultrices suscipit eget tortor, tincidunt urna, mattis aliquam duis eget luctus.</p>
+                <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-latest-review-img-3.jpg" alt="">
+                <h3>Garlic Butter White Wine Shrimp Linguine</h3>
+                <p>Non faucibus tincidunt commodo est arcu ipsum augue ipsum at vitae, nunc purus erat sem leo fames facilisis.</p>
+                <span>Read More <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="class">
+        <div class="head">
+            <h1>Best in Class Restaurant</h1>
+            <p>Massa urna magnis dignissim id euismod porttitor vitae etiam viverra nunc at adipiscing sit morbi aliquet mauris porttitor nisi, senectus pharetra ac porttitor orci.</p>
+        </div>
+        <div class="reviews-content">
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-1.jpg" alt="">
+                <h3>Bern's Steak House</h3>
+                <p>Potenti tincidunt arcu euismod curabitur iaculis ut aliquet facilisis pharetra, pharetra dolor scelerisque.</p>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-2.jpg" alt="">
+                <h3>Eewak Korean Restaurant</h3>
+                <p>Ipsum amet ultrices suscipit eget tortor, tincidunt urna, mattis aliquam duis eget luctus.</p>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-3.jpg" alt="">
+                <h3>The Ramban Vegan House
+                </h3>
+                <p>Non faucibus tincidunt commodo est arcu ipsum augue ipsum at vitae, nunc purus erat sem leo fames facilisis.</p>
+            </div>
+        </div>
+        <div class="reviews-content">
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-4.jpg" alt="">
+                <h3>Maniest Bake & Cake</h3>
+                <p>Potenti tincidunt arcu euismod curabitur iaculis ut aliquet facilisis pharetra, pharetra dolor scelerisque.</p>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-5.jpg" alt="">
+                <h3> Crush Los Angeles</h3>
+                <p>Ipsum amet ultrices suscipit eget tortor, tincidunt urna, mattis aliquam duis eget luctus.</p>
+            </div>
+            <div class="container">
+                <img src="./img/food-blogger-best-restaurant-6.jpg" alt="">
+                <h3>The Mike Winery</h3>
+                <p>Non faucibus tincidunt commodo est arcu ipsum augue ipsum at vitae, nunc purus erat sem leo fames facilisis.</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="mailing">
+        <div class="mail-container">
+            <img src="./img/food-blogger-subscribe-cta-img.jpg" alt="">
+            <div class="mail-about">
+                <h1>Join Mailing List</h1>
+                <p>Sign up and get all the latest, ad-free reviews, recipes and news sent to your inbox.</p>
+                <div class="input">
+                    <input type="text" placeholder="EMAIL ADDRESS" id="input">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="latest">
+        <h1>Latest Videos</h1>
+         <div class="latest-video">
+            <div class="left">
+                <img src="./img/video.webp" alt="">
+                <div class="circle"><i class="fa-solid fa-play"></i></div>
+                <div class="left-bio">
+                    <h3>Dianna Adams visits the Sooto Restaurant | Uncovered Miami</h3>
+                    <p>A consectetur eget ultrices nec velit purus quam dignissim purus gravida aliquam mattis ultrices eget ultricies tincidunt et erat enim vitae sollicitudin tellus placerat</p>
+                </div>
+            </div>
+            <div class="right">
+                <div class="flex">
+                    <img src="./img/food-blogger-latest-video-2.jpg" alt="">
+                    <div class="flex-content">
+                        <h4>Family Dinner - Latea pulvinar scelerisque diam tempus facilisi</h4>
+                        <p>Enim imperdiet fames nisl, purus et diam aliquet</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="./img/food-blogger-latest-video-3.jpg" alt="">
+                    <div class="flex-content">
+                        <h4>Family Dinner - Latea pulvinar scelerisque diam tempus facilisi</h4>
+                        <p>Enim imperdiet fames nisl, purus et diam aliquet</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="./img/food-blogger-latest-video-4.jpg" alt="">
+                    <div class="flex-content">
+                        <h4>Family Dinner - Latea pulvinar scelerisque diam tempus facilisi</h4>
+                        <p>Enim imperdiet fames nisl, purus et diam aliquet</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <img src="./img/food-blogger-latest-video-5.jpg" alt="">
+                    <div class="flex-content">
+                        <h4>Family Dinner - Latea pulvinar scelerisque diam tempus facilisi</h4>
+                        <p>Enim imperdiet fames nisl, purus et diam aliquet</p>
+                    </div>
+                </div>
+                <button>View All Videos</button>
+            </div>
+         </div>
+    </section>
+
+    <section class="footer1">
+        <div class="h1">
+            <h2>Invite me to your restaurant.</h2>
+            <h1>Get exposure of millions food lovers.</h1>
+        </div>
+        <p>Lorem dui tincidunt nunc viverra morbi et maecenas quam adipiscing integer amet eget blandit phasellus est natoque blandit facilisi eleifend.</p>
+        <button>LET'S TALK</button>
+    </section>
+
+    <footer>
+        <div class="head">
+            <div class="logo"><img src="./img/food-blogger-site-logo (1).svg" alt="">
+            </div>
+            <ul class="black">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./index.html">Reviews</a></li>
+                <li><a href="./index.html">Videos</a></li>
+                <li><a href="./index.html">Contact</a></li>
+            </ul>
+            <ul class="ul">
+                <li><a href="youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                <li><a href="instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="down">
+            <p>© 2024 Food Blogger & Influencer</p>
+            <p>Powered by JC TECH Enterprise</p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.right{
+    height: 100vh;
+}
+.right .background{
+    background: url("../img/food-blogger-about-header-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: center;
+    width: 100%;
+    float: right;
+    padding-top: 2rem;
+    height: 150%;
+}
+.left{
+    height: 100vh;
+}
+.left .left-content{
+    padding-left: 4rem;
+    margin-top: 3rem;
+}
+.left .left-content span{
+    margin-bottom: 0;
+}
+.left .left-content h1{
+    font-size: 4rem;
+}
+.left .left-content p{
+    color: gray;
+    font-weight: 200;
+}
+.left .left-content .flex{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+.left .left-content .flex .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    height: 3cm;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.left .left-content .flex .container .cont-top{
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.left .left-content .flex .container .cont-top i{
+    color: #C99484;
+    display: flex;
+    font-size: 1.3rem;
+}
+.left .left-content .flex .container .cont-top span{
+    color: black;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+.left .left-content .flex .container p{
+    margin-top: 0;
+    color: gray;
+    padding: 0;
+    margin-left: 2.2rem;
+}
+.left .icion {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    padding-left: 3rem;
+    margin-top: 3rem;
+        position: relative;
+        bottom: 3rem;
+        z-index: 100;
+}
+
+.left .icion .inon-content{
+    display: flex;
+    flex-direction: column;
+    gap:.7rem;
+}
+.left .icion .inon-content i{
+    color: #C99484;
+    font-size: 2.5rem;
+}
+.left .icion .inon-content h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.left .icion .inon-content p{
+    color: gray;
+    font-weight: 500;
+    font-size: 12px;
+}
+/* ///////////////////////////////////////////////////////////////section.section2 */
+.section2{
+    display:  grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 2cm;
+}
+.section2 .left{
+    width:100%;
+    height: 100%;
+}
+.section2 .left .background{
+    width: 70%;
+    background: #C99484;
+    height: 100%;
+}
+.section2 .left img{
+    width: 130%;
+    height: 88%;
+    position: relative;
+    left: 3rem;
+}
+.section2 .right{
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+.section2 .right h1{
+    font-size: 4rem;
+    color: #C99484;
+    font-weight: bolder;
+}
+.section2 .right p{
+    font-size: 2rem;
+    color: black;
+    font-weight: 800;
+    width: 100%;
+}
+.section2 .right .sign{
+    padding-top: 2rem;
+}
+.section2 .right .sign p{
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+/* ///////////////////////////////CHEERS */
+.chears{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/chears.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.chears .flex-end{
+    display: flex;
+    gap: 2rem;
+}
+.chears .circle{
+    height: 7rem;
+    width: 7.4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+.chears .circle:hover{
+    transform: scale(1.2);
+}
+.chears .flex-end .text{
+    width: 100%;
+    padding-right: 30rem;
+}
+.chears .flex-end .text h5{
+    font-size: 2rem;
+    color: white;
+}
+.chears .flex-end .text p{
+    font-size: 1.4rem;
+    color: white;
+}
+/* //////////////////////////////////BLOG? */
+.blog{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+.blog .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.blog .top h1{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.blog .img{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+/* /////////////////////////////////responive */
+@media screen and (max-width: 1024px){
+    .right{
+        width: 100%;
+        padding: 0;
+    }
+    .background{
+        position: relative;
+        bottom: 8cm;
+        width: 100cm;
+    }
+    .right .small{
+        position: relative;
+        top: 1cm;
+    }
+    .background  .header2  .circle{
+        position: relative;
+        top: 6cm;
+        left: 18cm;
+        height: 5rem !important;
+        width: 5rem !important;
+    }
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 8cm;
+        gap: 0;
+    }
+    .section2 .left .background{
+        width: 70%;
+        background: #C99484;
+        height: 100%;
+    }
+    .section2 .left img{
+        width: 130%;
+        height: 88%;
+        position: relative;
+        left: 3rem;
+    }
+    .section2 .right{
+        width: 100%;
+        height: 80%;
+        padding: 1rem;
+        margin-top: 0;
+        position: relative;
+        bottom: 4cm;
+    }
+     .blog .img{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+     }
+     .featuring{
+        position: relative;
+        bottom: 2cm;
+     }
+     .chears .flex-end .text{
+        width: 100%;
+        padding-right: 5rem;
+    }
+    .chears{
+        width: 100%;
+        height: 80vh;
+        background: url("/img/chears.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: flex-end;
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 480px){
+    .background  .header2  .circle{
+        position: relative;
+        top: 6cm;
+        left: 7.5cm;
+        height: 5rem !important;
+        width: 5rem !important;
+        z-index: 1000;
+    }
+    .left .left-content{
+        padding: 1rem;
+        margin-top: 3rem;
+    }
+    .section2{
+        padding-top: 2rem;
+    }
+    .section2 .left img{
+        width: 110%;
+        height: 88%;
+        position: relative;
+        left: 3rem;
+    }
+    .flex-end{
+        flex-direction: column;
+    }
+    .chears .flex-end .text{
+        width: 100%;
+        padding-right: 1rem;
+    }
+    .blog .top h1{
+        font-size: 20px;
+    }
+    .blog .top button{
+        padding: 0.5rem 1rem;
+    }
+    .featuring{
+        margin-top: 9cm;
+    }
+    .left .icion {
+        display: flex;
+        gap: 3rem;
+        width: 100%;
+        padding-left: 1rem;
+        margin-top: 6rem;
+    }
+}

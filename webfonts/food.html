@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            height: 100vh;
+        }
+        section .left{
+            width: 100%;
+            height: 100%;
+            background: white;
+        }
+        section .right{
+            width: 100%;
+            height: 100%;
+            background: white;
+        }
+        section .right .container{
+            width: 75%;
+            background: brown;
+            height: 100vh;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="left">h1</div>
+        <div class="right">
+            <div class="container">
+            </div>
+        </div>
+    </section>
+</body>
+</html>

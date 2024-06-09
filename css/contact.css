@@ -1,0 +1,312 @@
+
+/* ///////////////////////////////////////////////////////////////section.section2 */
+.section2{
+    display:  grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: 100vh;
+    margin-top: 4cm;
+}
+.section2 .left{
+    width:100%;
+    height: 100%;
+}
+.section2 .left .background{
+    width: 70%;
+    background: #C99484;
+    height: 100%;
+}
+.section2 .left img{
+    width: 130%;
+    height: 88%;
+    position: relative;
+    left: 3rem;
+}
+.section2 .right{
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+.section2 .right h1{
+    font-size: 4rem;
+    color: #C99484;
+    font-weight: bolder;
+}
+.section2 .right p{
+    font-size: 2rem;
+    color: black;
+    font-weight: 800;
+    width: 100%;
+}
+.section2 .right .sign{
+    padding-top: 2rem;
+}
+.section2 .right .sign p{
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+.right .background form{
+    position: absolute;
+    top: 10rem;
+    width: 42%;
+    /* right: 12rem; */
+    background: white;
+    border: 1rem solid rgb(172, 169, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1rem 2rem;
+}
+.right .background form .talk{
+    display: flex;
+    flex-direction: column;
+}
+.right .background form  label{
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.right .background form .talk .box{
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+.right .background form .talk .box .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+}
+.right .background form .talk .box .inputs input{
+    width: 5.2cm;
+}
+.right .background form .talk .box .inputs small{
+    color: gray;
+}
+.right .background form .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;gap: 2px;
+}
+.right .background form .text input, textarea, input{
+    background: rgb(236, 236, 236);
+    outline: none;
+    border: 1px solid grey;
+
+}
+.right .background form .text input,  input{
+    background: rgb(236, 236, 236);
+    height: 2.5rem;
+
+}
+
+ form{
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    background: white;
+    border: 1rem solid rgb(172, 169, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    padding: 1rem 2rem;
+    display: none;
+}
+form .talk{
+    display: flex;
+    flex-direction: column;
+}
+ form  label{
+    color: gray;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+ form .talk .box{
+    display: flex;
+    gap: 2rem;
+}
+ form .talk .box .inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+ form .talk .box .inputs small{
+    color: gray;
+}
+ form .text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;gap: 2px;
+}
+ form .text input, textarea, input{
+    background: rgb(236, 236, 236);
+    outline: none;
+    border: 1px solid grey;
+
+}
+ form .text input,  input{
+    background: rgb(236, 236, 236);
+    height: 2.5rem;
+
+}
+.left-content ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left-content ul li{
+    display: flex;
+    margin: 0;
+    gap: 1rem;
+}
+.left-content ul li i{
+    color: #C99484;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.left-content ul .location{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.left-content ul .location span{
+    margin: 0;
+}
+.left-content ul .location h1{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1024px){
+    /* .section1{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+    } */
+    .section1 .left{
+        position: absolute;
+        top: 9rem;
+    }
+    .right .background form{
+        display: none;
+    }
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        gap:5rem;
+    }
+    .section2 .left .background{
+        width: 70%;
+        background: #C99484;
+        height: 100%;
+    }
+    .section2 .left img{
+        width: 130%;
+        height: 88%;
+        position: relative;
+        left: 3rem;
+    }
+    .section2 .right{
+        width: 100%;
+        height: 80%;
+        padding: 1rem;
+        margin-top: 0;
+        position: relative;
+        bottom: 4cm;
+    }
+    .right .background{
+        float: right; 
+        /* margin-top: 10rem; */
+         height: 93%;
+        z-index: 0;
+        width: 35%;
+    } 
+    .right .background form{
+        width: 85%;
+        position: absolute;
+        top: 15rem;
+        left: 2rem;
+        height: 20cm;
+        display: none;
+    }
+    .right .background form .talk .box{
+        display: flex;
+        gap: 0.5rem;
+    }
+    #forms{
+        position: relative;
+        /* top: 10rem; */
+        right: 0rem;
+        background: white;
+        border: 1rem solid rgb(172, 169, 169);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+        padding: 1rem 2rem;
+        width: 100%;
+        margin-bottom: 7cm;
+        /* display: none; */
+    }
+    #forms .talk .box{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 48% 48%;
+        width: 100%;
+    }
+    #forms .talk .box .inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        width: 100%;
+    }
+    #forms .talk .box .inputs input{
+        width: 9cm;
+    }
+    
+}
+
+@media screen and (max-width: 480px){
+    .section2{
+        padding-top: 2rem;
+        gap: 4rem;
+    }
+    .section2 .left img{
+        width: 110%;
+        height: 88%;
+        position: relative;
+        left: 3rem;
+    }
+    .section2 .right p{
+       font-size: 1rem;
+    }
+
+    #forms .talk .box{
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .icion{
+        position: relative;
+        top: 1rem;
+        right: 2rem;
+        z-index: 100;
+     }
+    .section1{
+        width: 100%;
+        height: 100vh;
+    }
+    #forms .talk .box .inputs input{
+        width: 7cm;
+    }
+    
+}
